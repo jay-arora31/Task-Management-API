@@ -177,7 +177,30 @@ Replace {id} with the actual task ID.
 ### Output
 (No JSON response; returns a 204 No Content status)
 
-## 6. Edit the title or completion of a specific Task
+
+
+## 2.  Bulk delete tasks
+
+### Endpoint
+- **Endpoint**: `/v1/tasks`
+- **Method**: DELETE
+
+### Request Body (JSON)
+```json
+{
+  "tasks": [
+    {"id": 1},
+    {"id": 2},
+ 
+  ]
+}
+```
+### Output
+(No JSON response; returns a 204 No Content status)
+
+
+
+## 7. Edit the title or completion of a specific Task
 
 ### Endpoint
 - **Endpoint**: `/v1/tasks/{id}`
@@ -195,7 +218,14 @@ Replace {id} with the actual task ID.
 
 
 
-![image](https://github.com/jay-arora31/CareerJunction/assets/68243425/1f9a4ea5-4e35-44f9-87dc-da9303f2da53)
+
+
+
+
+
+## 
+
+![image](https://github.com/jay-arora31/CareerJunction/assets/68243425/523535ce-e9bf-48f2-b7cd-340998b05814)
 
 
 
