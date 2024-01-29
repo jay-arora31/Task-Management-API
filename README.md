@@ -33,7 +33,7 @@ task_main/
 Clone the repository to your local machine:
 ```sh
 $ git clone https://github.com/jay-arora31/Task-Management-API.git
-$ cd task_main
+$ cd Task-Management-API
 ```
 Install the required dependencies:
 ```sh
