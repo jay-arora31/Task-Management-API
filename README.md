@@ -23,7 +23,7 @@ task_main/
 │
 ├── manage.py
 ├── requirements.txt
-├── pytest.py
+├── test.py
 ├── README.md
 
 ```
